@@ -1,5 +1,5 @@
 Package: foofactos
-Title: What the Package Does (One Line, Title Case)
+Title: Factoring the World one Foo at a Time
 Version: 0.0.0.9000
 Authors@R: 
     person(given = "Tom",
@@ -7,7 +7,12 @@ Authors@R:
            role = c("aut", "cre"),
            email = "tom@tomfielden.com",
            comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: What license it uses
+Description: I really don't know what this package does. It's just a toy/tutorial package.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 7.0.2
+Suggests: 
+    testthat (>= 2.1.0)
+Imports: 
+    forcats
