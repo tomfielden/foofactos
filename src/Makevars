@@ -1,0 +1,13 @@
+# -*- Makefile -*-
+
+PKG_CXXFLAGS = -I .
+
+include SOURCES.mk
+
+OBJECTS = $(SOURCES:.cpp=.o)
+
+all: $(SHLIB)
+
+$(SHLIB): $(OBJECTS)
+
+# include DEPS.mk

@@ -15,6 +15,9 @@ RoxygenNote: 7.0.2
 Suggests: 
     testthat (>= 2.1.0)
 Imports: 
-    forcats
+    forcats,
+    Rcpp
 URL: https://github.com/tomfielden/foofactos
 BugReports: https://github.com/tomfielden/foofactos/issues
+LinkingTo: 
+    Rcpp
